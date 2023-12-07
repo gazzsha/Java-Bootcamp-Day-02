@@ -13,7 +13,7 @@ public class CheckerFile {
 
     public static boolean checkFileWithoutException(File file) {
         if (!file.exists()) {
-            System.out.format("%s %s\n",file.getPath(),"File Not exist!");
+            System.out.format("%s %s\n", file.getPath(), "File Not exist!");
             return false;
         }
         return true;
