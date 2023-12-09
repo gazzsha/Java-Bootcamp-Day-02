@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        final String pathSource = "src/text.txt";
-        final String pathStore = "src/result";
+        final String pathSource = "text.txt";
+        final String pathStore = "result";
         String path = "";
         try (Scanner scanner = new Scanner(System.in)) {
             path = scanner.nextLine();

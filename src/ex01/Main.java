@@ -13,7 +13,7 @@ public class Main {
              BufferedReader bufferedReader1 = new BufferedReader(new FileReader(pathOfSecond, StandardCharsets.UTF_8));
              PrintWriter printWriter= new PrintWriter(new BufferedWriter(new FileWriter(dictionary,StandardCharsets.UTF_8)))) {
             fileSystem.ReadFromFiles(bufferedReader, bufferedReader1,printWriter);
-            System.out.format("%.2f\n", fileSystem.similarity());
+            System.out.format("%s %.2f\n","Similarity =",fileSystem.similarity());
         } catch (IOException ioException) {
             System.out.println(ioException.toString());
         }

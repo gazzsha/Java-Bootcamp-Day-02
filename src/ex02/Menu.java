@@ -4,7 +4,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 public class Menu {
 
